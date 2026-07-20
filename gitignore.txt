@@ -1,0 +1,29 @@
+# Database (changes constantly, shouldn't be tracked)
+project.db
+
+# Python cache/temp files
+__pycache__/
+*.pyc
+*.pyo
+
+# Dataset - too large / too many files for GitHub
+dataset/*.zip
+dataset/Early_blight_leaves/
+dataset/Healthy_leaves/
+dataset/Late_blight_leaves/
+
+# Uploaded user images (runtime-generated, not source code)
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Virtual environment (if you create one)
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
