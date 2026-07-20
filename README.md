@@ -43,6 +43,29 @@ Potato crops are highly susceptible to fungal diseases like Early Blight and Lat
 
 ---
 
+📸 Screenshots
+
+Landing Page
+[Landing Page](screenshots/landing-page.png)
+
+About the Project
+[About Project](screenshots/about-project.png)
+
+How It Works
+[How It Works](screenshots/how-it-works.png)
+
+Upload Page
+[Upload Page](screenshots/upload-page.png)
+
+Prediction Result — Healthy Leaf
+[Healthy Result](screenshots/healthy-leaf-result.png)
+
+Prediction Result — Late Blight Detected
+[Late Blight Result](screenshots/late-blight-result.png)
+
+---
+
+
 🌟 Key Features
 
 Transfer learning with MobileNetV2 — lightweight and efficient, suitable for low-resource deployment
