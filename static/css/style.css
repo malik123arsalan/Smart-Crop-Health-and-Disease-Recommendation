@@ -1,0 +1,86 @@
+body {
+    scroll-behavior: smooth;
+    /* Background fix with darker overlay for better contrast */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('/static/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/static/background.jpg');
+    background-size: cover;
+}
+
+.hero-section h1 {
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+section {
+    padding: 80px 0;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Pure white with slight transparency */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(10px);
+}
+
+#predict .card { border-radius: 15px; }
+
+/* Smooth scrolling for navigation */
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-dark-custom {
+    background-color: rgba(33, 37, 41, 0.8) !important;
+    color: white;
+}
+
+
+/* Navbar transparency effect */
+.navbar {
+    background-color: rgba(33, 37, 41, 0.9) !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Predict Card Styling */
+#predict .card {
+    border: none;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+#predict .card:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.custom-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05) !important;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+    background: #ffffff;
+}
+
+.icon-box {
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover .icon-box {
+    transform: scale(1.1);
+}
